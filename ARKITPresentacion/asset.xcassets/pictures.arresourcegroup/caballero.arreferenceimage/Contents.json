@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "El_caballero_de_la_mano_en_el_pecho.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "unit" : "centimeters",
+    "width" : 5.6858000000000004
+  }
+}

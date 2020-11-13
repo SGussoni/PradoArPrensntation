@@ -1,37 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Sww-v9-bnS">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home-->
+        <scene sceneID="10j-wn-av4">
+            <objects>
+                <viewController id="d7Q-Na-KCL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hUj-jy-npO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MuseoNacionaldelPradoMadrid" translatesAutoresizingMaskIntoConstraints="NO" id="yAi-JG-wtu">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2M-OA-2E3">
+                                <rect key="frame" x="107" y="697" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.16862745098039217" blue="0.12549019607843137" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BqW-bl-gKY"/>
+                                    <constraint firstAttribute="width" constant="200" id="afk-IA-g6f"/>
+                                </constraints>
+                                <state key="normal" title="Colección de Escultura">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Zg9-CO-zZI" kind="show" id="0TA-JR-smY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Jr-lt-Mdl">
+                                <rect key="frame" x="107" y="752" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.16862745098039217" blue="0.12549019607843137" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="u1w-N6-Ogf"/>
+                                    <constraint firstAttribute="height" constant="30" id="zdK-Bq-Y0x"/>
+                                </constraints>
+                                <state key="normal" title="Colección de Pintura">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="E4Q-x4-Rjw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggG-OH-sp4">
+                                <rect key="frame" x="107" y="807" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.16862745098039217" blue="0.12549019607843137" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="8by-tF-NIB"/>
+                                    <constraint firstAttribute="height" constant="30" id="dWq-5c-DPa"/>
+                                </constraints>
+                                <state key="normal" title="En restauración">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WfQ-XY-oOw" kind="show" id="hYP-vo-FGJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6RB-Vn-GTs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ggG-OH-sp4" firstAttribute="top" secondItem="4Jr-lt-Mdl" secondAttribute="bottom" constant="25" id="8xw-nM-XOC"/>
+                            <constraint firstItem="6RB-Vn-GTs" firstAttribute="bottom" secondItem="ggG-OH-sp4" secondAttribute="bottom" constant="25" id="Iq7-WQ-uho"/>
+                            <constraint firstItem="ggG-OH-sp4" firstAttribute="centerX" secondItem="hUj-jy-npO" secondAttribute="centerX" id="Yei-Dy-ISp"/>
+                            <constraint firstItem="yAi-JG-wtu" firstAttribute="top" secondItem="6RB-Vn-GTs" secondAttribute="top" id="fmF-Ha-R8n"/>
+                            <constraint firstItem="k2M-OA-2E3" firstAttribute="centerX" secondItem="hUj-jy-npO" secondAttribute="centerX" id="l9r-s5-nmJ"/>
+                            <constraint firstAttribute="bottom" secondItem="yAi-JG-wtu" secondAttribute="bottom" id="n7J-Pl-JUH"/>
+                            <constraint firstItem="4Jr-lt-Mdl" firstAttribute="top" secondItem="k2M-OA-2E3" secondAttribute="bottom" constant="25" id="v8C-1F-aJG"/>
+                            <constraint firstItem="yAi-JG-wtu" firstAttribute="leading" secondItem="hUj-jy-npO" secondAttribute="leading" id="w7A-D9-XrD"/>
+                            <constraint firstItem="4Jr-lt-Mdl" firstAttribute="centerX" secondItem="hUj-jy-npO" secondAttribute="centerX" id="wjY-yt-ojZ"/>
+                            <constraint firstAttribute="trailing" secondItem="yAi-JG-wtu" secondAttribute="trailing" id="zE5-Sj-q6d"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="mHz-6M-jLg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XU5-ZH-3ZP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-339.13043478260875" y="-33.482142857142854"/>
+        </scene>
+        <!--Empty View Controller-->
+        <scene sceneID="JcG-uE-Lqk">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="WfQ-XY-oOw" customClass="EmptyViewController" customModule="ARKITPresentacion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eFY-ui-bAe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TxQ-Ct-Pcd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </arscnView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8Wk-Db-9GT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TxQ-Ct-Pcd" firstAttribute="leading" secondItem="eFY-ui-bAe" secondAttribute="leading" id="1dF-fk-9ri"/>
+                            <constraint firstItem="8Wk-Db-9GT" firstAttribute="bottom" secondItem="TxQ-Ct-Pcd" secondAttribute="bottom" constant="-34" id="OwI-Ic-a56"/>
+                            <constraint firstItem="TxQ-Ct-Pcd" firstAttribute="top" secondItem="eFY-ui-bAe" secondAttribute="top" id="Qhf-YV-fip"/>
+                            <constraint firstItem="8Wk-Db-9GT" firstAttribute="trailing" secondItem="TxQ-Ct-Pcd" secondAttribute="trailing" id="tca-zq-TcX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vlf-q9-Yyq"/>
+                    <connections>
+                        <outlet property="sceneView" destination="TxQ-Ct-Pcd" id="cYK-Pa-7g3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a1H-uK-hKW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="482.60869565217394" y="764.73214285714278"/>
+        </scene>
+        <!--Sculpture View Controller-->
+        <scene sceneID="4Ia-Wl-5NM">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Zg9-CO-zZI" customClass="SculptureViewController" customModule="ARKITPresentacion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LGh-Ql-KR1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6rK-Z4-fbX">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </arscnView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7DL-fy-fIs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6rK-Z4-fbX" firstAttribute="leading" secondItem="LGh-Ql-KR1" secondAttribute="leading" id="XVX-pu-rIs"/>
+                            <constraint firstItem="7DL-fy-fIs" firstAttribute="bottom" secondItem="6rK-Z4-fbX" secondAttribute="bottom" constant="-34" id="nAZ-7w-D0v"/>
+                            <constraint firstItem="6rK-Z4-fbX" firstAttribute="top" secondItem="LGh-Ql-KR1" secondAttribute="top" id="yc8-Br-2bB"/>
+                            <constraint firstItem="7DL-fy-fIs" firstAttribute="trailing" secondItem="6rK-Z4-fbX" secondAttribute="trailing" id="ym6-Vh-jRg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kho-4g-AdH"/>
+                    <connections>
+                        <outlet property="sceneView" destination="6rK-Z4-fbX" id="XbL-mf-DbH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6IB-TU-dfp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1142.0289855072465" y="764.73214285714278"/>
+        </scene>
+        <!--Pictures View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BV1-FR-VrT" customClass="PicturesViewController" customModule="ARKITPresentacion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </arscnView>
                         </subviews>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" constant="34" id="VpT-BR-CcM"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
                     </view>
+                    <navigationItem key="navigationItem" id="KA4-eS-kOM"/>
                     <connections>
                         <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-339.13043478260875" y="764.73214285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="anh-9h-Xjg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sww-v9-bnS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iaW-w9-Qqv">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.59999999999999998" green="0.16862745100000001" blue="0.12549019610000001" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="d7Q-Na-KCL" kind="relationship" relationship="rootViewController" id="uVa-X1-uA6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e3Q-Bz-a93" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1142" y="-33"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="MuseoNacionaldelPradoMadrid" width="1500" height="1000"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

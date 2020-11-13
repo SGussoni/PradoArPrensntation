@@ -1,0 +1,26 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "aquelarre.arreferenceimage"
+    },
+    {
+      "filename" : "bufon.arreferenceimage"
+    },
+    {
+      "filename" : "caballero.arreferenceimage"
+    },
+    {
+      "filename" : "hilanderas.arreferenceimage"
+    },
+    {
+      "filename" : "rey.arreferenceimage"
+    },
+    {
+      "filename" : "saturno.arreferenceimage"
+    }
+  ]
+}

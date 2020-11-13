@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6624D659255A9C62009CDF13 /* SculptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624D658255A9C62009CDF13 /* SculptureViewController.swift */; };
+		6624D65E255A9C67009CDF13 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624D65D255A9C67009CDF13 /* EmptyViewController.swift */; };
+		6624D6C7255AA94A009CDF13 /* asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6624D6C6255AA94A009CDF13 /* asset.xcassets */; };
+		6624D6D5255ACE65009CDF13 /* sculptures.json in Resources */ = {isa = PBXBuildFile; fileRef = 6624D6D4255ACE65009CDF13 /* sculptures.json */; };
 		662F5FA02553245B00B48D93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F5F9F2553245B00B48D93 /* AppDelegate.swift */; };
 		662F5FA22553245B00B48D93 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 662F5FA12553245B00B48D93 /* art.scnassets */; };
-		662F5FA42553245B00B48D93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F5FA32553245B00B48D93 /* ViewController.swift */; };
+		662F5FA42553245B00B48D93 /* PicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F5FA32553245B00B48D93 /* PicturesViewController.swift */; };
 		662F5FA72553245B00B48D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662F5FA52553245B00B48D93 /* Main.storyboard */; };
-		662F5FA92553245C00B48D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662F5FA82553245C00B48D93 /* Assets.xcassets */; };
 		662F5FAC2553245C00B48D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662F5FAA2553245C00B48D93 /* LaunchScreen.storyboard */; };
 		662F5FB72553245C00B48D93 /* ARKITPresentacionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F5FB62553245C00B48D93 /* ARKITPresentacionTests.swift */; };
 		662F5FC22553245C00B48D93 /* ARKITPresentacionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662F5FC12553245C00B48D93 /* ARKITPresentacionUITests.swift */; };
+		66FDE19A2553FE62002EA68B /* pictures.json in Resources */ = {isa = PBXBuildFile; fileRef = 66FDE1992553FE62002EA68B /* pictures.json */; };
+		66FDE19F2553FE68002EA68B /* Pictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FDE19E2553FE68002EA68B /* Pictures.swift */; };
+		66FDE1A92553FE79002EA68B /* paperPlane.scn in Resources */ = {isa = PBXBuildFile; fileRef = 66FDE1A82553FE79002EA68B /* paperPlane.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6624D658255A9C62009CDF13 /* SculptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SculptureViewController.swift; sourceTree = "<group>"; };
+		6624D65D255A9C67009CDF13 /* EmptyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		6624D6C6255AA94A009CDF13 /* asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = asset.xcassets; sourceTree = "<group>"; };
+		6624D6D4255ACE65009CDF13 /* sculptures.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sculptures.json; sourceTree = "<group>"; };
 		662F5F9C2553245B00B48D93 /* ARKITPresentacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKITPresentacion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		662F5F9F2553245B00B48D93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		662F5FA12553245B00B48D93 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		662F5FA32553245B00B48D93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		662F5FA32553245B00B48D93 /* PicturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesViewController.swift; sourceTree = "<group>"; };
 		662F5FA62553245B00B48D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		662F5FA82553245C00B48D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		662F5FAB2553245C00B48D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		662F5FAD2553245C00B48D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		662F5FB22553245C00B48D93 /* ARKITPresentacionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKITPresentacionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +58,9 @@
 		662F5FBD2553245C00B48D93 /* ARKITPresentacionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKITPresentacionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		662F5FC12553245C00B48D93 /* ARKITPresentacionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKITPresentacionUITests.swift; sourceTree = "<group>"; };
 		662F5FC32553245C00B48D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FDE1992553FE62002EA68B /* pictures.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pictures.json; sourceTree = "<group>"; };
+		66FDE19E2553FE68002EA68B /* Pictures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pictures.swift; sourceTree = "<group>"; };
+		66FDE1A82553FE79002EA68B /* paperPlane.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = paperPlane.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +113,17 @@
 			children = (
 				662F5F9F2553245B00B48D93 /* AppDelegate.swift */,
 				662F5FA12553245B00B48D93 /* art.scnassets */,
-				662F5FA32553245B00B48D93 /* ViewController.swift */,
+				6624D6C6255AA94A009CDF13 /* asset.xcassets */,
+				662F5FA32553245B00B48D93 /* PicturesViewController.swift */,
+				6624D658255A9C62009CDF13 /* SculptureViewController.swift */,
+				6624D65D255A9C67009CDF13 /* EmptyViewController.swift */,
 				662F5FA52553245B00B48D93 /* Main.storyboard */,
-				662F5FA82553245C00B48D93 /* Assets.xcassets */,
 				662F5FAA2553245C00B48D93 /* LaunchScreen.storyboard */,
 				662F5FAD2553245C00B48D93 /* Info.plist */,
+				66FDE1992553FE62002EA68B /* pictures.json */,
+				6624D6D4255ACE65009CDF13 /* sculptures.json */,
+				66FDE19E2553FE68002EA68B /* Pictures.swift */,
+				66FDE1A82553FE79002EA68B /* paperPlane.scn */,
 			);
 			path = ARKITPresentacion;
 			sourceTree = "<group>";
@@ -233,8 +251,11 @@
 			files = (
 				662F5FA22553245B00B48D93 /* art.scnassets in Resources */,
 				662F5FAC2553245C00B48D93 /* LaunchScreen.storyboard in Resources */,
-				662F5FA92553245C00B48D93 /* Assets.xcassets in Resources */,
+				6624D6C7255AA94A009CDF13 /* asset.xcassets in Resources */,
+				66FDE1A92553FE79002EA68B /* paperPlane.scn in Resources */,
 				662F5FA72553245B00B48D93 /* Main.storyboard in Resources */,
+				6624D6D5255ACE65009CDF13 /* sculptures.json in Resources */,
+				66FDE19A2553FE62002EA68B /* pictures.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				662F5FA42553245B00B48D93 /* ViewController.swift in Sources */,
+				6624D659255A9C62009CDF13 /* SculptureViewController.swift in Sources */,
+				6624D65E255A9C67009CDF13 /* EmptyViewController.swift in Sources */,
+				66FDE19F2553FE68002EA68B /* Pictures.swift in Sources */,
+				662F5FA42553245B00B48D93 /* PicturesViewController.swift in Sources */,
 				662F5FA02553245B00B48D93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,12 +461,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 698BDJS4GR;
 				INFOPLIST_FILE = ARKITPresentacion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = es.vass.ARKITPresentacion;
+				PRODUCT_BUNDLE_IDENTIFIER = es.vass.PradoAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,12 +480,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 698BDJS4GR;
 				INFOPLIST_FILE = ARKITPresentacion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = es.vass.ARKITPresentacion;
+				PRODUCT_BUNDLE_IDENTIFIER = es.vass.PradoAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

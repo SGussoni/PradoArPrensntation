@@ -1,0 +1,74 @@
+{
+    "aquelarre": {
+        "name": "El aquelarre",
+        "dates": "1798",
+        "author": "Goya",
+        "bio": "El aquelarre es uno de los pequeños cuadros que pintó Francisco de Goya entre 1797 y 1798 para el palacio de recreo de los duques de Osuna.",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/7/74/GOYA_-_El_aquelarre_%28Museo_L%C3%A1zaro_Galdiano%2C_Madrid%2C_1797-98%29.jpg",
+        "width": "30",
+        "height":"43"
+    },
+    "bufon": {
+        "name": "El bufón el Primo",
+        "dates": "1645–1644",
+        "author": "Velazquez",
+        "bio": "El bufón el Primo, ​ anteriormente conocido como El bufón don Sebastián de Morra, es una pintura al óleo de Velázquez.",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Vel%C3%A1zquez_%E2%80%93_Buf%C3%B3n_don_Sebasti%C3%A1n_de_Morra_%28Museo_del_Prado%2C_c._1645%29.jpg",
+        "width": "81.5",
+        "height":"106.5"
+    },
+    "caballero": {
+        "name": "El caballero de la mano en el pecho",
+        "dates": "1580",
+        "author": "El Greco",
+        "bio": "El caballero de la mano en el pecho es uno de los más famosos retratos creados por Doménikos Theotokópoulos El Greco. Es un óleo sobre lienzo pintado hacia 1578 y 1580.",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/El_caballero_de_la_mano_en_el_pecho.jpg/600px-El_caballero_de_la_mano_en_el_pecho.jpg",
+        "width": "0.05",
+        "height":"0.05"
+    },
+    "hilanderas": {
+        "name": "La fábula de Aracne",
+        "dates": "1657",
+        "author": "Velazquez",
+        "bio": "La fábula de Aracne, popularmente conocido como Las hilanderas, es un lienzo de Diego Velázquez.",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Velazquez-las_hilanderas.jpg/600px-Velazquez-las_hilanderas.jpg",
+        "width": "293",
+        "height":"222.5"
+    },
+    "jardin": {
+        "name": "El jardín de las delicias",
+        "dates": "1500-15051",
+        "author": "El Bosco",
+        "bio": "El jardín de las delicias es el nombre contemporáneo con el que se conoce a una de las obras más conocidas del pintor neerlandés Jheronimus Bosch (el Bosco).",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/El_jard%C3%ADn_de_las_Delicias%2C_de_El_Bosco.jpg/600px-El_jard%C3%ADn_de_las_Delicias%2C_de_El_Bosco.jpg",
+        "width": "389",
+        "height":"220"
+    },
+    "meninas": {
+        "name": "Las meninas",
+        "dates": "1656",
+        "author": "Velazquez",
+        "bio": "Las meninas (como se conoce a esta obra desde el siglo XIX) o La familia de Felipe IV (según se describe en el inventario de 1734) se considera la obra maestra del pintor del Siglo de Oro español Diego Velázquez.",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Las_Meninas_01.jpg/490px-Las_Meninas_01.jpg",
+        "width": "276",
+        "height":"318"
+    },
+    "rey": {
+        "name": "La familia de Carlos IV",
+        "dates": "1800",
+        "author": "Goya",
+        "bio": "La familia de Carlos IV es un retrato colectivo pintado en 1800 por Francisco de Goya. Se conserva en el Museo del Prado de Madrid.",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/La_familia_de_Carlos_IV%2C_por_Francisco_de_Goya.jpg/700px-La_familia_de_Carlos_IV%2C_por_Francisco_de_Goya.jpg",
+        "width": "336",
+        "height":"280"
+    },
+    "saturno": {
+        "name": "Saturno devorando a su hijo",
+        "dates": "1819-1823",
+        "author": "Goya",
+        "bio": "El cuadro Saturno devorando a su hijo o Saturno devorando a un hijo es una de las pinturas al óleo sobre revoco que formaron parte de la decoración de los muros de la casa que Francisco de Goya adquirió en 1819, llamada la Quinta del Sordo.",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg/490px-Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg",
+        "width": "83",
+        "height":"146"
+    }
+}

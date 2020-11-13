@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "GOYA_-_El_aquelarre_(Museo_Lázaro_Galdiano,_Madrid,_1797-98).jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 10
+  }
+}

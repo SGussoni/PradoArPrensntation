@@ -1,0 +1,20 @@
+{
+    "neptuno": {
+        "name": "Neptuno",
+        "dates": "135",
+        "author": "Anónimo",
+        "bio": " Estatua de Neptuno de tipo colosal. Fue esculpida probablemente en un taller de Afrodisias (Asia Menor) y estuvo en el santuario de Palemón en Istmia.",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Neptuno_colosal_%28Museo_del_Prado%29_01.jpg",
+        "width": "30",
+        "height":"43"
+    },
+    "orestes": {
+        "name": "Ofrenda de Orestes y Pílades",
+        "dates": "10",
+        "author": "Escuela de Pasiteles",
+        "bio": " Ofrenda de Orestes y Pílades es un grupo escultórico romano, de la escuela de Pasiteles,1​ esculpido en mármol blanco de Carrara.",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Grupo_de_Orestes_y_Pílades_%28Museo_del_Prado%29.jpg",
+        "width": "81.5",
+        "height":"106.5"
+    }
+}
